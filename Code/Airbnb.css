@@ -22,13 +22,14 @@ i{
     padding: 80px 0 0px 0;
 }
 nav{
-    padding: 10px 0px 40px 0px;
+    padding: 30px 80px 30px 100px;
     background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0;
+    z-index: 9999;
 }
 .icon{
     display: flex;
@@ -61,7 +62,9 @@ nav{
     text-decoration: none;
     color: white;
     font-size: 14px;
-    margin-right: 15px;
+    margin-right: 5px;
+    padding: 6px 12px;
+    border-radius: 122px;
 }
 .button{
     text-decoration: none;
@@ -71,8 +74,10 @@ nav{
 }
 .bi-globe{
     font-size: 16px;
-    margin-right: 25px;
+    margin-right: 10px;
     cursor: pointer;
+    border-radius: 122px;
+    padding: 6px 12px;
 }
 .hamburger-button{
     display: flex;
@@ -104,14 +109,10 @@ nav{
     border-bottom: 2px solid white;
 }
 .navbar-right-section a:hover{
-    padding: 6px 12px;
     background-color: gray;
-    border-radius: 122px;
 }
 .navbar-right-section i.bi-globe:hover{
-    border-radius: 122px;
     background-color: gray;
-    padding: 6px 12px;
 }
 .img{
     background-image: url("/Pics/bg-image.jpeg");
